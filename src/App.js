@@ -3,7 +3,7 @@ import './App.css';
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Note from './components/NoteJsx';
-import noteService from './services/notes'
+import noteService from './services/notesServices'
 
 
 function App() {
